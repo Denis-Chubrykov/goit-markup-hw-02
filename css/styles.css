@@ -15,15 +15,17 @@ body {
   left: 215px;
   top: 24px;
   text-decoration: none;
+  color: #2196f3;
 }
-.header-nav a {
+.header-nav-link {
   color: #212121;
 }
-.header-list a {
+.header-mail,
+.header-tel {
   color: #757575;
 }
 .logo {
-  color: #2196f3;
+  color: #212121;
 }
 .link:hover {
   color: #2196f3;
@@ -43,8 +45,6 @@ body {
 }
 .hero-title {
   color: #ffffff;
-
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -52,18 +52,16 @@ body {
 .hero-button {
   background-color: #2196f3;
   color: #ffffff;
-
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  cursor: pointer;
 }
 /* преимущество*/
 .advantage {
   background-color: #e5e5e5;
 }
 .advantage-subtitle {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -72,9 +70,6 @@ body {
 }
 .advantage-text {
   color: #757575;
-
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -83,7 +78,6 @@ body {
   background-color: #e5e5e5;
 }
 .working-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -93,7 +87,6 @@ body {
   background-color: #f5f4fa;
 }
 .team-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -101,18 +94,28 @@ body {
   letter-spacing: 0.03em;
 }
 .team-subtitle {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 .team-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #757575;
 }
 .team-item {
   background-color: #ffffff;
+}
+/* Подвал страницы */
+.footer {
+  background-color: #2f303a;
+}
+.footer-list {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0, 6);
 }
