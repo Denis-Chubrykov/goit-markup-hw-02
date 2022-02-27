@@ -125,3 +125,16 @@ body {
 .footer-logo {
   color: #ffffff;
 }
+/* Портфолио */
+.portfolio {
+  background-color: #e5e5e5;
+}
+.port {
+  color: #2196f3;
+}
+.portfolio-btn {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}

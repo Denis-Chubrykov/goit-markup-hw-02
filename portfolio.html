@@ -4,97 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-      <!-- Шапка страницы -->
+    <!-- Шапка страницы -->
     <header class="header">
       <nav class="header-nav">
         <a class="header-nav-logo" href="./index.html" lang="en"
-          ><span class="nav-logo">Web</span>Studio</a
+          >Web<span class="logo">Studio</span></a
         >
-        <ul class="header-nav-list">
-          <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Студия</a></li>
+        <ul class="header-nav-list list">
           <li class="header-nav-item">
-            <a class="header-nav-link" href="./portfolio.html">Портфолио</a>
+            <a class="header-nav-link link" href="./index.html">Студия</a>
           </li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Контакты</a></li>
+          <li class="header-nav-item">
+            <a class="header-nav-link port link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul class="header-list">
+      <ul class="header-list list">
         <li class="header-item">
-          <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="header-item">
-          <a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- портфолио -->
     <main>
-        <section></section>
+      <section class="portfolio">
         <h1 hidden>портфолио</h1>
-      <nav>
+        <nav>
+          <ul>
+            <li class="portfolio-btn list"><button type="button">Все</button></li>
+            <li class="portfolio-btn list"><button type="button">Веб-сайты</button></li>
+            <li class="portfolio-btn list"><button type="button">Приложения</button></li>
+            <li class="portfolio-btn list"><button type="button">Дизайн</button></li>
+            <li class="portfolio-btn list"><button type="button">Маркетинг</button></li>
+          </ul>
+        </nav>
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-      </nav>
-      <ul>
-        <li><img src="./imeges/tehno.jpg" alt="ноутбук с  тремя фото" width="370" height="294">
+          <li class="list">
+            <img src="./imeges/tehno.jpg" alt="ноутбук с  тремя фото" width="370" height="294" />
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
-        </li>
-        <li><img src="./imeges/poster.jpg" alt="два баскетболиста" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/poster.jpg" alt="два баскетболиста" width="370" height="294" />
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
-        </li>
-        <li><img src="./imeges/restaurant.jpg" alt="название ресторана" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/restaurant.jpg" alt="название ресторана" width="370" height="294" />
             <h2>Ресторан Seafood</h2>
             <p>Приложение</p>
-        </li>
-        <li><img src="./imeges/project Prime.jpg" alt="наушники" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/project Prime.jpg" alt="наушники" width="370" height="294" />
             <h2>Проект Prime</h2>
             <p>Маркетинг</p>
-        </li>
-        <li><img src="./imeges/project boxes.jpg" alt="две коробки" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/project boxes.jpg" alt="две коробки" width="370" height="294" />
             <h2>Проект Boxes</h2>
             <p>Приложение</p>
-        </li>
-        <li><img src="./imeges/Inspiration has no Borders.jpg" alt="монитор" width="370" height="294">
+          </li>
+          <li class="list">
+            <img
+              src="./imeges/Inspiration has no Borders.jpg"
+              alt="монитор"
+              width="370"
+              height="294"
+            />
             <h2>Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
-        </li>
-        <li><img src="./imeges/edition.jpg" alt="раскрытая книга" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/edition.jpg" alt="раскрытая книга" width="370" height="294" />
             <h2>Издание Limited Edition</h2>
             <p>Дизайн</p>
-        </li>
-        <li><img src="./imeges/project lab.jpg" alt="бирка с названием" width="370" height="294">
+          </li>
+          <li class="list">
+            <img src="./imeges/project lab.jpg" alt="бирка с названием" width="370" height="294" />
             <h2>Проект LAB</h2>
             <p>Маркетинг</p>
-        </li>
-        <li><img src="./imeges/Growing Business.jpg" alt="человек печатает на наутбуке" width="370" height="294">
+          </li>
+          <li class="list">
+            <img
+              src="./imeges/Growing Business.jpg"
+              alt="человек печатает на наутбуке"
+              width="370"
+              height="294"
+            />
             <h2>Growing Business</h2>
             <p>Приложение</p>
-        </li>
-      </ul>
+          </li>
+        </ul>
       </section>
     </main>
     <!-- подвал страницы -->
-    <footer>
-      <a href="" lang="en">WebStudio</a>
+    <footer class="footer">
+      <a class="footer-link" href="" lang="en">Web<span class="footer-logo">Studio</span></a>
       <address>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26 <br /></li>
-          <li><a href="mailto:info@example.com">info@example.com</a> <br /></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="footer-list list">
+          <li class="footer-item">г. Киев, пр-т Леси Украинки, 26 <br /></li>
+          <li class="footer-item">
+            <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a> <br />
+          </li>
+          <li class="footer-item">
+            <a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
