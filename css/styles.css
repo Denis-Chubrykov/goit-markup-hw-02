@@ -111,6 +111,9 @@ body {
   background-color: #2f303a;
 }
 .footer-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
@@ -118,4 +121,7 @@ body {
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo {
+  color: #ffffff;
 }
