@@ -47,14 +47,14 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 .hero-button {
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   cursor: pointer;
 }
 /* преимущество*/
@@ -64,14 +64,14 @@ body {
 .advantage-subtitle {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantage-text {
   color: #757575;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 /* чем занимаемся */
 .working {
@@ -80,7 +80,7 @@ body {
 .working-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1;
 }
 /* команда */
 .team {
@@ -89,18 +89,18 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1;
 }
 .team-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1;
   color: #757575;
 }
 .team-item {
@@ -115,7 +115,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #ffffff;
 }
 .footer-mail,
@@ -136,5 +136,25 @@ body {
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio-list {
+  background-color: #eeeeee;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
