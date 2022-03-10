@@ -4,6 +4,10 @@
   --background-color: #ffffff;
   --accent-color: #2196f3;
   --text-color: #757575;
+  --bgsecondary-color: #2f303a;
+  --bgbutton-color: #f5f4fa;
+  --bgportfolio-color: #eeeeee;
+  --mailtel-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -60,7 +64,7 @@ body {
 }
 /* Секция герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bgsecondary-color);
 }
 .hero-title {
   color: var(--background-color);
@@ -75,13 +79,10 @@ body {
   background-color: var(--accent-color);
   color: var(--background-color);
   font-family: inherit;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   border: 0;
   border-radius: 4px;
@@ -91,7 +92,6 @@ body {
   background-color: var(--background-color);
 }
 .advantage-subtitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -108,7 +108,6 @@ body {
   background-color: var(--background-color);
 }
 .working-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -116,10 +115,9 @@ body {
 }
 /* команда */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bgbutton-color);
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -129,13 +127,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.1;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -144,7 +140,7 @@ body {
 }
 /* Подвал страницы */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bgsecondary-color);
 }
 .footer-list {
   font-family: Roboto;
@@ -160,7 +156,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--mailtel-color);
 }
 .footer-logo {
   font-family: Raleway;
@@ -179,7 +175,7 @@ body {
   color: var(--accent-color);
 }
 .portfolio-btn {
-  background-color: #f5f4fa;
+  background-color: var(--bgbutton-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -194,7 +190,7 @@ body {
   color: var(--background-color);
 }
 .portfolio-list {
-  background-color: #eeeeee;
+  background-color: var(--bgportfolio-color);
 }
 .portfolio-title {
   font-weight: 700;
@@ -209,4 +205,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.Current-button;
+.Current-button {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
