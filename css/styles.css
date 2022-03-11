@@ -63,7 +63,7 @@ body {
   list-style: none;
 }
 /* Секция герой */
-.hero {
+.hero.footer {
   background-color: var(--bgsecondary-color);
 }
 .hero-title {
