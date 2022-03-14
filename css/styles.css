@@ -63,7 +63,8 @@ body {
   list-style: none;
 }
 /* Секция герой */
-.hero.footer {
+.hero,
+.footer {
   background-color: var(--bgsecondary-color);
 }
 .hero-title {
@@ -139,9 +140,6 @@ body {
   background-color: var(--background-color);
 }
 /* Подвал страницы */
-.footer {
-  background-color: var(--bgsecondary-color);
-}
 .footer-list {
   font-family: Roboto;
   font-style: normal;
