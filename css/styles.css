@@ -63,6 +63,9 @@ body {
   list-style: none;
 }
 /* Секция герой */
+.hero {
+  text-align: center;
+}
 .hero,
 .footer {
   background-color: var(--bgsecondary-color);
@@ -72,18 +75,17 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--accent-color);
   color: var(--background-color);
+  font-weight: inherit;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.8;
   cursor: pointer;
-  display: flex;
   letter-spacing: 0.06em;
   border: 0;
   border-radius: 4px;
@@ -176,9 +178,9 @@ body {
   background-color: var(--bgbutton-color);
   font-family: inherit;
   font-weight: 500;
+  cursor: pointer;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
 }
@@ -187,17 +189,14 @@ body {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
-.portfolio-list {
-  background-color: var(--bgportfolio-color);
-}
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--brand-color);
 }
 .portfolio-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
